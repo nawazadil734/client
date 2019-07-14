@@ -7,6 +7,7 @@ const Bottom = () => {
             <Link to="/discussions" style={{ margin: '10px', textAlign: "center"}}>Discussions</Link>
             <Link to="/club" style={{ margin: '10px', textAlign: "center"}}>A-to-Z Club</Link>
             <Link to="/communities" style={{ margin: '10px', textAlign: "center"}}>Communities</Link>
+            Copyright @Adil_Nawaz
         </div>
     );
 }

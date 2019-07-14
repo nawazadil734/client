@@ -3,11 +3,18 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-
-            <div className="ui menu">
-                <a href="/" className="ui item">A-to-Z</a>
-                <a href="/about" className="ui item">About</a>
-                <a href="/club" className="ui item">A-to-Z Club</a>
+            <div className="ui container">
+                <div className="ui form">
+                <div className="ui secondary menu">
+                    <div className="left menu">
+                        <a href="/" className="item" style={{textAlign: 'center'}}>A-to-Z</a>
+                        <a href="/about" className="item" style={{textAlign: 'center'}}>About</a>
+                    </div>
+                    <div className="right menu">
+                        <a href="/club" className="item">A-to-Z Club</a>
+                    </div>
+                </div>
+                </div>
             </div>
         );
     }
